@@ -30,7 +30,7 @@ _logger = logging.getLogger(__name__)
 
 
 def check_fs_sig_bh(X, y,
-                    n_jobs=defaults.N_PROCESSES,
+                    n_jobs=defaults.N_JOBS,
                     chunksize=defaults.CHUNKSIZE,
                     fdr_level=defaults.FDR_LEVEL,
                     hypotheses_independent=defaults.HYPOTHESES_INDEPENDENT,

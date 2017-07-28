@@ -59,7 +59,7 @@ class FeatureSelector(BaseEstimator, TransformerMixin):
                  test_for_real_target_binary_feature=defaults.TEST_FOR_REAL_TARGET_BINARY_FEATURE,
                  test_for_real_target_real_feature=defaults.TEST_FOR_REAL_TARGET_REAL_FEATURE,
                  fdr_level=defaults.FDR_LEVEL, hypotheses_independent=defaults.HYPOTHESES_INDEPENDENT,
-                 n_jobs=defaults.N_PROCESSES, chunksize=defaults.CHUNKSIZE):
+                 n_jobs=defaults.N_JOBS, chunksize=defaults.CHUNKSIZE):
         """
         Create a new FeatureSelector instance.
 

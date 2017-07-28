@@ -4,7 +4,7 @@ from multiprocessing import cpu_count
 n_cores = int(os.getenv("NUMBER_OF_CPUS") or cpu_count())
 
 CHUNKSIZE = None
-N_PROCESSES = max(1, n_cores // 2)
+N_JOBS = max(1, n_cores // 2)
 PROFILING = False
 PROFILING_SORTING = "cumulative"
 PROFILING_FILENAME = "profile.txt"

@@ -93,7 +93,7 @@ class RelevantFeatureAugmenter(BaseEstimator, TransformerMixin):
                  timeseries_container=None,
                  chunksize=defaults.CHUNKSIZE,
                  impute_function=defaults.IMPUTE_FUNCTION,
-                 n_jobs=defaults.N_PROCESSES,
+                 n_jobs=defaults.N_JOBS,
                  show_warnings=defaults.SHOW_WARNINGS,
                  disable_progressbar=defaults.DISABLE_PROGRESSBAR,
                  profile=defaults.PROFILING,

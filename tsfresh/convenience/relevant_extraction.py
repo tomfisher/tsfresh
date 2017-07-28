@@ -25,7 +25,7 @@ def extract_relevant_features(timeseries_container, y, X=None,
                               test_for_real_target_real_feature=defaults.TEST_FOR_REAL_TARGET_REAL_FEATURE,
                               fdr_level=defaults.FDR_LEVEL,
                               hypotheses_independent=defaults.HYPOTHESES_INDEPENDENT,
-                              n_jobs=defaults.N_PROCESSES,
+                              n_jobs=defaults.N_JOBS,
                               chunksize=defaults.CHUNKSIZE):
     """
     High level convenience function to extract time series features from `timeseries_container`. Then return feature
